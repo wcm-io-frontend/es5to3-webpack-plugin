@@ -1,17 +1,18 @@
 {
-  "name": "es3ify-webpack-plugin",
-  "version": "1.1.0",
-  "description": "Transforms ES5 JavaScript Webpack output to ES3 by using es3ify.",
+  "name": "es5to3-webpack-plugin",
+  "version": "1.0.0",
+  "description": "Transforms JavaScript from ES5 to ES3 bundled by webpack.",
   "author": {
     "name": "Matthias Hauch",
     "email": "mhauch@pro-vision.de"
   },
+  "homepage": "https://github.com/wcm-io-frontend/es5to3-webpack-plugin",
+  "bugs": {
+    "url": "https://github.com/wcm-io-frontend/es5to3-webpack-plugin/issues"
+  },
   "repository": {
     "type": "git",
-    "url": "https://git-intern.pro-vision.de/pro-vision/pv-frontend-build-tools.git"
-  },
-  "publishConfig": {
-    "registry": "https://nexus.pvtool.org/content/repositories/npm-internal/"
+    "url": "git+https://github.com/wcm-io-frontend/es5to3-webpack-plugin.git"
   },
   "engines": {
     "node": ">=0.12"
@@ -21,7 +22,9 @@
     "plugin",
     "output",
     "es3ify",
-    "es3"
+    "es3",
+    "es5",
+    "transformer"
   ],
   "main": "index.js",
   "dependencies": {
@@ -29,5 +32,13 @@
     "jstransform": "^11.0.2",
     "webpack-sources": "^0.1.2"
   },
-  "license": "MIT"
+  "devDependencies": {
+    "mocha": "^2.5.3",
+    "should": "^9.0.0",
+    "webpack": "^1.13.1"
+  },
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha"
+  }
 }
