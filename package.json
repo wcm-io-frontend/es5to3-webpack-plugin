@@ -1,0 +1,33 @@
+{
+  "name": "es3ify-webpack-plugin",
+  "version": "1.1.0",
+  "description": "Transforms ES5 JavaScript Webpack output to ES3 by using es3ify.",
+  "author": {
+    "name": "Matthias Hauch",
+    "email": "mhauch@pro-vision.de"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git-intern.pro-vision.de/pro-vision/pv-frontend-build-tools.git"
+  },
+  "publishConfig": {
+    "registry": "https://nexus.pvtool.org/content/repositories/npm-internal/"
+  },
+  "engines": {
+    "node": ">=0.12"
+  },
+  "keywords": [
+    "webpack",
+    "plugin",
+    "output",
+    "es3ify",
+    "es3"
+  ],
+  "main": "index.js",
+  "dependencies": {
+    "es3ify": "^0.2.2",
+    "jstransform": "^11.0.2",
+    "webpack-sources": "^0.1.2"
+  },
+  "license": "MIT"
+}
