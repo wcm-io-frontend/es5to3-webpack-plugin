@@ -3,9 +3,13 @@
   "version": "1.0.0",
   "description": "Transforms JavaScript from ES5 to ES3 bundled by webpack.",
   "author": {
+    "name": "pro!vision GmbH",
+    "url": "http://www.pro-vision.de"
+  },
+  "contributors": [{
     "name": "Matthias Hauch",
     "email": "mhauch@pro-vision.de"
-  },
+  }],
   "homepage": "https://github.com/wcm-io-frontend/es5to3-webpack-plugin",
   "bugs": {
     "url": "https://github.com/wcm-io-frontend/es5to3-webpack-plugin/issues"
@@ -24,7 +28,8 @@
     "es3ify",
     "es3",
     "es5",
-    "transformer"
+    "transformer",
+    "pro!vision"
   ],
   "main": "index.js",
   "dependencies": {
@@ -37,7 +42,7 @@
     "should": "^9.0.0",
     "webpack": "^1.13.1"
   },
-  "license": "MIT",
+  "license": "Apache-2.0",
   "scripts": {
     "test": "mocha"
   }
